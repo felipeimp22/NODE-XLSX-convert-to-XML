@@ -1,1 +1,1 @@
-npm install -g win-node-env & NODE_ENV=S1200 node projectX.js
+npm install -g win-node-env & NODE_ENV=S1000 node projectX.js
