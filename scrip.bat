@@ -1,0 +1,1 @@
+npm install -g win-node-env & NODE_ENV=S1005 node projectX.js
