@@ -13,6 +13,6 @@ workSheetsFromFile[0].data.slice(1, workSheetsFromFile[0].data.length).forEach(e
 
 console.log("LENGTH ----------------->",workSheetsFromFile[0].data.length)
 
-xml.forEach(async(e,i)=> await fs.writeFile(__dirname +'/xml'+ `/xml${i}.xml`, e +"", ()=>{ }))
-xmlProcess.forEach(async(e,i)=> await fs.writeFile(__dirname +'/xml'+ `/xmlProcess${i}.xml`, e+"", ()=>{}))
+xml.forEach((e,i)=>  fs.writeFile(__dirname +'/xml'+ `/xml${i}.xml`, e +"", ()=>{ }))
+xmlProcess.forEach((e,i)=>  fs.writeFile(__dirname +'/xml'+ `/xmlProcess${i}.xml`, e+"", ()=>{}))
 console.log("Finish")
